@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js">
+      </script>
+        <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js">
+      </script>
+    </head>
+    <body ng-app="myApp"> 
+      
+        <script type="text/ng-template" 
+                id="first.html">
+            <h1 style="color:green">This is First Page</h1>
+        
+        </script>
+        <script type="text/ng-template" 
+                id="second.html">
+            <h1 style="color:red">This is Second Page</h1>
+           
+          
+        </script>
+        <script type="text/ng-template"
+                id="third.html">
+            <h1 style="color:blue">This is Third Page</h1>
+          
+        </script>
+        <script type="text/ng-template" 
+        id="fourth.html">
+    <h1 style="color:orange">This is Fourth Page</h1>
+    
+    </script>
+        
+        <a href="#/first">First</a>
+        <a href="#/second">Second</a>
+        <a href="#/third">Third</a>
+        <a href="#/fourth">Fourth</a>
+       
+        <div ng-view></div>
+        <script>
+            var app = angular.module('myApp', []);
+            var app = angular.module('myApp', ['ngRoute']);
+            app.config(function($routeProvider) {
+            $routeProvider
+            .when('/first', {
+            templateUrl : 'first.html',
+            controller : 'FirstController'
+            })
+  
+            .when('/second', {
+            templateUrl : 'second.html',
+            controller : 'SecondController'
+            })
+  
+            .when('/third', {
+            templateUrl : 'third.html',
+            controller : 'ThirdController'
+            })
+
+
+            .when('/fourth', {
+            templateUrl : 'fourth.html',
+            controller : 'FourthController'
+            })
+  
+           
+            });
+  
+  
+          
+        </script>
+    </body>
+</html>
