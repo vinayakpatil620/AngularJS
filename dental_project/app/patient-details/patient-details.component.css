@@ -1,0 +1,145 @@
+nav{
+    background: rgb(97, 180, 97);
+    padding: 0px 0px 0px 0px;
+    font-size: large;
+}
+  
+.nav-link{
+    color: black;
+}
+  
+nav ul{
+    float: inline-start;
+}
+  
+nav ul li{
+    display: inline-block;
+    line-height:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.area{
+    width: 400px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.line1{
+    width: 400px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.pncode{
+    width: 130px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.city{
+    width: 250px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.cit{
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+/* .city1{
+    width: 250px;
+    margin-left: 5px;
+    margin-bottom: 3px; 
+} */
+
+.column1 {
+    float: left;
+    width: 48%;
+    padding: 10px;
+    height: 328px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.table-data{
+      place-items: center;
+      border-collapse: collapse;
+      height: auto;
+      width: 100%;
+}
+.another{
+     width: 100%;
+    /* margin-left: 10px; */
+ }
+.table-data1{
+    place-items: center;
+    border-collapse: collapse;
+    height: auto;
+    width: 97%;
+    margin-left: 20px;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 328px;
+    border: 1px solid black;
+   
+}
+
+.select{
+    background-image:linear-gradient(to bottom,rgb(168, 166, 166),rgb(100, 98, 98));
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 18px;
+}
+.cit1{
+    margin-left: 5px;   
+}
+.ref{
+      width: 600px;
+      margin-left: 5px; 
+      margin-bottom: 3px;
+}
+.remark{
+      width: 800px;
+      height: 130px;
+      margin-bottom: 3px;
+      margin-top: 3px;
+}
+.medical{
+     width: 300px;
+}
+.btn{
+        width: 100%;
+}
+.button {
+    text-align: center;
+    display: inline-block;
+    padding: 1px 25px;
+    place-items: center;
+}
+.line2{
+    
+    width: 400px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+.today {
+    font-size: 18px;
+    color: #fff;
+}
+  
+.timing{
+    float: right;
+    margin-top: 6px;
+}
+.menu-divider{
+     height: 15px;
+        margin-top: 10px;
+        border-left: 1px solid rgb(67, 105, 67);
+        border-right: 1px solid rgb(90, 231, 90);
+    
+}

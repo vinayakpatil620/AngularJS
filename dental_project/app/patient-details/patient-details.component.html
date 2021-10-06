@@ -1,0 +1,119 @@
+<nav>
+    <ul>
+        <li><a class="nav-link" href="#">HOME</a></li>
+        <li class="menu-divider"></li>
+        <li><a class="nav-link" href="#">REPORTS</a></li>
+        <li class="menu-divider"></li>
+        <li><a class="nav-link" href="#">REMINDER</a></li>
+        <li class="menu-divider"></li>
+        <li><a class="nav-link" href="#">EXPENSES</a></li>
+        <li class="menu-divider"></li>
+        <li><a class="nav-link" href="#">ADMIN</a></li>
+        <li class="menu-divider"></li>
+        <li><a class="nav-link" href="#">CHANGE USER</a></li>
+        <li class="menu-divider"></li>
+        <li><a class="nav-link" href="#">LOGOUT</a></li>
+        <li class="nav-item timing">
+            <span class="today" id="today"> {{myDate | date:"fullDate"}}</span>
+        </li>
+    </ul>
+</nav> 
+
+<div class="row">
+    <div class="column1" style="background-color:#bbb;">
+        <table class="table-data" border="2">
+            <tr>
+                <td>Line 1</td>
+                <td><input type="text" class="line1"></td>
+            </tr>
+            <tr>
+                <td>Area</td>
+                <td><input type="text" class="area"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" class="city"></td>
+            </tr>
+            <tr>
+                <td>Pincode</td>
+                <td><input type="text" class="pncode"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><input type="text" class="city"></td>
+            </tr>
+            <tr>
+                <td>Telephone</td>
+                <td><input type="text" class="city"><br><input type="text" class="city"></td>
+            </tr>
+            <tr>
+                <td width="180"><b>Other Contacts</b></td>
+                <td><b class="cit">Mobile</b><br><input type="text" class="city"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="column2" style="background-color:#bbb;">
+        <table class="table-data" border="2">
+          <tr>
+            <td><input type="text" class="line1"></td>  
+          </tr>
+          <tr>
+            <td><input type="text" class="line1"></td>  
+          </tr>
+          <tr>
+             <td><input type="text" class="city"></td>  
+          </tr>
+          <tr>
+             <td><input type="text" class="pncode"></td>  
+          </tr>
+          <tr>
+             <td><input type="text" class="city"></td>  
+          </tr>
+          <tr>
+             <td><input type="text" class="city"><br><input type="text" class="city"></td>  
+          </tr>
+          <tr>
+             <td><b class="cit">Email</b><br><input type="text" class="city"></td>
+          </tr>
+        </table>
+      </div>
+
+    <div class="another" style="background-color:#bbb;">
+       <table class="table-data1 " border="2" style="background-color:#bbb;">
+       
+        <tr>
+            <td colspan="3"><div class="select"><span><b>Other Details</b></span></div> </td>
+        </tr>
+        <tr>
+            <td>Reference</td>
+            <td colspan="2"><input type="text" class="ref"></td>
+        </tr>
+        <tr>
+            <td><b>Medical Details</b></td>
+            <td> 
+               <div class="medical">
+                  <b class="cit">Blood Group</b><br> 
+            <select class="cit1">
+                 <option selected>Select</option>
+           </select>
+               </div>
+           </td>
+           <td>
+            <div><b class="cit">Drugs</b><br><input type="text" class="line2"></div>
+        </td>
+        </tr>
+        <tr>
+            <td>Remarks</td>
+            <td colspan="2"><input type="text" class="remark"></td>
+        </tr>
+        </table>
+    </div>
+</div>
+     <div class="btn">
+            <button type="save" class="button" style="margin:3px;">Save</button>
+            <button type="add" class="button" style="margin:3px;">Add</button>
+            <button type="edit" class="button" style="margin:3px;">Edit</button>
+    </div>
+
+ 

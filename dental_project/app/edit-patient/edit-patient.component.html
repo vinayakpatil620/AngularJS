@@ -1,0 +1,25 @@
+<div class="container mt-5">
+    <h2>Lists of Patients</h2>
+    <a routerLink="patient/add/0" class="btn btn-primary">Add Patients</a>
+    <table class="table">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th></th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let patient of patients">
+                <td>{{patient.id}}</td>
+                <td>{{patient.name}}</td>
+                <td>{{patient.email}}</td>
+                <td>{{patient.Phone}}</td>
+                <!-- <td><a routerLink="['patient/edit',this.id]">Edit</a></td> -->
+                <!-- <td><button (click)=onGetPatient(patient.id)>Edit</button></td> -->
+                <td><a routerLink="/patient/add/0">Edit</a></td>
+                <td><button (click)=onDelete(patient.id)>x</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

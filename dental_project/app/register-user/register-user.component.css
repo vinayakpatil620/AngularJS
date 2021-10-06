@@ -1,0 +1,41 @@
+
+.login-box {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 24px 0 rgba(0, 0, 0, 0.19);
+    background-image:linear-gradient(to left bottom, #2087ac, #76cfef);
+    border-radius: 50%;
+    /* margin-top:30%; */
+    height: 500px;
+    width: 500px;
+}
+.form-title {
+    text-align: center;
+    margin-top:20%;
+    color: #fff;
+    text-shadow: 4px 4px 4px  #6b6b6b;
+}
+.login-form {
+    padding: 10px;
+    margin-top: 10%;
+    text-align: center;
+}
+.form-item {
+    margin-bottom: 30px;
+}
+.form-label {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.submit-button {
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-weight: bold;
+    
+}
+.btn-color {
+    background-color: #84c450;
+    color: #fff;
+    border: 1px solid #4d4d4d;
+    border-radius: 10px;
+}

@@ -1,0 +1,97 @@
+<div class="jumbotron">
+    <nav>
+        <ul>
+            <li><a class="nav-link" href="#">HOME</a></li>
+            <li class="menu-divider"></li>
+            <li><a class="nav-link" href="#">REPORTS</a></li>
+            <li class="menu-divider"></li>
+            <li><a class="nav-link" href="#">REMINDER</a></li>
+            <li class="menu-divider"></li>
+            <li><a class="nav-link" href="#">EXPENSES</a></li>
+            <li class="menu-divider"></li>
+            <li><a class="nav-link" href="#">ADMIN</a></li>
+            <li class="menu-divider"></li>
+            <li><a class="nav-link" href="#">CHANGE USER</a></li>
+            <li class="menu-divider"></li>
+            <li><a class="nav-link" href="#">LOGOUT</a></li>
+            <li class="nav-item timing">
+                <span class="today" id="today"> {{myDate | date:"fullDate"}}</span>
+                </li>
+        </ul>
+    </nav> 
+
+ <div class="row">
+    <div class="col md 3"> </div>
+
+    <div class="col md 6">
+        <table class="serial-no" border="1">
+
+            <tr style="background-color: white; border: 0px;">
+              <th colspan="2">
+                <div class="select"><span>SELECT</span></div>
+              </th>             
+            </tr>
+
+            <tr>
+               <td>1</td>
+                <td><a class="entry" href="#"><ins><b>Add New Patient Entry</b></ins></a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a class="entry" href="#"><ins><b>View All Patients</b></ins></a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><label class="search"><b>Search By</b></label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                 <table class="table-data" border="1">
+                    <tr>
+                     <td>Reg. No.</td>
+                     <td>:</td>
+                     <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                     <td>First Name</td>
+                     <td>:</td>
+                     <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                     <td width="130">Middle Name</td>
+                     <td>:</td>
+                     <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                     <td>Last Name</td>
+                     <td>:</td>
+                     <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                     <td>Telephone</td>
+                     <td>:</td>
+                     <td><input type="number"></td>
+                    </tr>
+                 </table>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a class="entry" href="#"><ins><b>Advance Search</b></ins></a></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <div class="btn">
+                <button type="search" (click)="nextpage()">Search</button>
+                </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+         
+    <div class="col md 6"> </div>
+
+    </div>
+</div>    
+
